@@ -1,0 +1,47 @@
+{
+  "name": "mina-appkit",
+  "version": "1.0.0",
+  "description": "React hooks for Mina blockchain wallet integration with Auro Wallet",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "pnpm run clean && pnpm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mina",
+    "blockchain",
+    "wallet",
+    "react",
+    "hooks",
+    "auro",
+    "web3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.4",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neo-Gar/mina-appkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neo-Gar/mina-appkit/issues"
+  },
+  "homepage": "https://github.com/Neo-Gar/mina-appkit#readme"
+}

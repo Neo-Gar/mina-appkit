@@ -1,0 +1,27 @@
+# Source files
+hooks/
+index.ts
+tsconfig.json
+rollup.config.js
+
+# Development files
+.vscode/
+.gitignore
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Logs and temp files
+*.log
+.tmp/
+.cache/
+
+# Test files
+test/
+tests/
+__tests__/
+*.test.*
+*.spec.*
+
+# Documentation source
+docs/
